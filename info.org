@@ -1,0 +1,8 @@
+run mlink:
+sudo mblock-mlink start
+web editor:
+https://ide.mblock.cc/#/
+halocode python API:
+http://docs.makeblock.com/halocode/en/python-api/python-api.html
+micropython API
+https://docs.micropython.org/en/latest/library/builtins.html

@@ -1,0 +1,5 @@
+#!/bin/bash
+while true
+do
+mosquitto_sub -h test.mosquitto.org -t /KLEINHOLDERMANN/HALOCODE -C 6 > log_$(time -Is).txt
+done
