@@ -1,0 +1,10 @@
+#!/bin/bash
+
+../prep/raw_to_long.sh $1 > tmpfile1.txt
+cat tmpfile1.txt | cut -c1 > colfile1.txt
+cat tmpfile1.txt | cut -c1 > colfile2.txt
+cat tmpfile1.txt | cut -c1 > colfile3.txt
+cat tmpfile1.txt | cut -c1 > colfile4.txt
+cat tmpfile1.txt | cut -c1 > colfile5.txt
+cat tmpfile1.txt | cut -c1 > colfile6.txt
+

@@ -1,0 +1,15 @@
+#!/bin/bash
+ 	
+../prep/raw_to_long.sh $1 > tmpfile1.txt
+
+
+set multiplot layout 1, 1 
+set tmargin 2
+unset key
+cat tmpfile1.txt | cut -c1 > colfile.txt
+plot 'colfile.txt'
+
+unset multiplot
+#
+#
+#

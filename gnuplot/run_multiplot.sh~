@@ -1,0 +1,4 @@
+#!/bin/bash
+
+bash multiplot_prep.sh $1
+/usr/bin/multiplot multiplot.sh
